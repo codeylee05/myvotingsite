@@ -153,4 +153,28 @@
 #access-cand2:hover {
   background-color: red;
   cursor: pointer;
+}
+
+#head-ballot {
+  text-align: center;
+  margin: 20px;
+  background-color: blue;
+  border-radius: 10px 10px 10px 10px;
+  animation: swap-colors 3s infinite;
+}
+
+@keyframes swap-colors {
+  0% {
+    background-color: red;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
+#ballot-intro {
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
 }/*# sourceMappingURL=styles.css.map */
