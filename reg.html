@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registry</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <div id="head-registry">
+            <h1 id="title-reg">Registry</h1>
+            <p>Register to Vote!</p>
+        </div>
+        <div id="about-registry">
+            <p>
+                This is the <strong>Registry</strong> page to vote in the annual <strong>Student Presidential Election for 2024.</strong><br>All students <strong>must meet neccessary requirements</strong> before they can place a vote
+                <br> Please fill in your neccessary details and submit for validation
+            </p>
+        </div>
+        <button type="button" id="returnnav">Back to Home</button>
+        <div id="regform-registry">
+            <h2>Register Here</h2>
+            <form id="regform">
+                Are you a student of School House International?
+                <div>
+                    <label for="y">Yes</label>
+                    <input id="y" type="radio" name="isstudent" value="is a student">
+                </div>
+                <div>
+                    <label for="y">No</label>
+                    <input id="n" type="radio" name="isstudent" value="is not a student">
+                </div>
+                <div>
+                    <label for="nm">Name of Student</label>
+                    <input id="nm" type="name" name="name" placeholder="Please enter your name and surname">
+                </div>
+                <div>
+                    <label for="g">Grade of Student</label>
+                    <input id="g" type="number" min="10" max="13" name="grade">
+                </div>
+                <div>
+                    <label for="f">Form Class</label>
+                    <input id="f" type="text" name="formclass" placeholder="Grade/Letter">
+                </div>
+                <div>
+                    <label for="s">Student ID</label>
+                    <input id="s" type="number" min="0010000" max="0012000" name="studentid">
+                </div>
+                <div>
+                    <label for="c">Cellphone Number</label>
+                    <input id="c" type="tel" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" name="cellnumber">
+                </div>
+                <div>
+                    <label for="d">Date of Reg</label>
+                    <input id="d" type="date" max="2023-10-30" name="dateofreg">
+                </div>
+                Have you successfully voted before?
+                <div>
+                    <label for="yy">Yes</label>
+                    <input id="yy" type="radio" value="yes" name="hasvotedbefore" value="Student has voted before">
+                </div>
+                <div>
+                    <label for="nn">No</label>
+                    <input id="nn" type="radio" value="no" name="hasvotedbefore" value="Student has not voted before">
+                </div>
+                If you are a student council member, elections volunteer, or associated with a campaign in any way, pls specify
+                <div>
+                    <label for="e">Extra</label>
+                    <textarea id="e" name="extra"></textarea>
+                </div>
+                <div id="end">
+                    <button id="subm" type="submit">Register</button>
+                    <button id="res" type="reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

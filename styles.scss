@@ -1,0 +1,129 @@
+$theme1-color: grey;
+$theme2-color: purple;
+$border-curve: 10px 10px 10px 10px;
+$main-align: center;
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#head-index {
+    background-color: $theme2-color;
+}
+#head-index:hover {
+    background-color: $theme1-color;
+}
+#head-index, #head-registry, #head-camps {
+    text-align: $main-align ;
+    margin: 20px;
+    border-radius: $border-curve;
+}
+#nav-index {
+    text-align: $main-align;
+}
+.navs, #returnnav {
+    margin: 20px; 
+    height: 35px;
+    width: 120px;
+    background-color: $theme1-color;
+    font-weight: bold;
+    border-radius: 10px 10px 10px 10px;
+}
+.navs:hover, #returnnav:hover {
+    width: 155px;
+    background-color: $theme2-color;
+    cursor: pointer;
+}
+#intro-index {
+    text-align: $main-align;
+}
+#about-index {
+    color: grey;
+}
+#about-index:hover {
+    color: $theme2-color;
+}
+#head-registry {
+    background-color: $theme1-color;}
+#head-registry:hover {
+    background-color: $theme2-color;
+}
+#about-registry {
+    text-align: $main-align;
+}
+#regform-registry {
+    text-align: $main-align;
+    background-color: $theme1-color;
+    height: 500px;
+    margin-top: 80px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border-radius: $border-curve;
+}
+#regform-registry:hover {
+    background-color: lightgrey;
+    box-shadow: 0 0 5px purple, 0 0 25px purple, 0 0 50px purple, 0 0 200px purple;
+}
+#regform > div {
+    margin: 5px;
+}
+#head-camps {
+    background-color: purple;
+}
+#head-camps:hover {
+    background-color: grey;
+}
+#intro-camps, #intro-camps-note {
+    text-align: $main-align;
+    margin-top: 10px;
+}
+#intro-camps-note:hover {
+    font-weight: bold;
+}
+#camps-cands {
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#camps-cands1 {
+    margin-left: none;
+    margin-right: 40px;
+    border-radius: $border-curve;
+}
+#camps-cands2 {
+    margin-right: none;
+    margin-left: 700px;
+    border-radius: $border-curve;
+}
+#camps-cands1:hover {
+    box-shadow: 0 0 5px blue, 0 0 25px blue, 0 0 50px blue, 0 0 200px blue;
+}
+#camps-cands2:hover {
+    box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 200px red;
+}
+#access-cands {
+    text-align: $main-align;
+}
+#access-cand1 {
+    margin-right: 100px;
+}
+#access-cand2 {
+    margin-left: 180px;
+}
+#access-cand1, #access-cand2 {
+    width: 160px;
+    height: 35px;
+    border-radius: $border-curve;
+    background-color: $theme1-color;
+    font-weight: bold;
+}
+#access-cand1:hover, #access-cand2:hover {
+    width: 195px;
+}
+#access-cand1:hover {
+    background-color: blue ;
+    cursor: pointer;
+}
+#access-cand2:hover {
+    background-color: red;
+    cursor: pointer;
+}
